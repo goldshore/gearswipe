@@ -1,0 +1,10 @@
+# wrangler.toml
+name = "gearswipe-api"
+type = "javascript"
+
+[build]
+command = "npm run build"
+cwd = "./backend"
+
+[vars]
+API_KEY = "get-from-cloudflare-dashboard" # Never commit actual values
